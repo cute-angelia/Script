@@ -7,6 +7,7 @@ QX :
 
 Surge4：
 http-response ^https?:\/\/mjapp\.\w{1,9}\.com\/index\.php\/app\/ios\/(vod\/show|user\/index) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+@supported E54765DF5F47
 */
 
 var body = $response.body;

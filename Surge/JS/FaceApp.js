@@ -4,6 +4,7 @@ http-response ^https?:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credential
 
 [MITM]
 hostname = api.faceapp.io
+@supported E54765DF5F47
 */
 
     let headers = $response.headers;

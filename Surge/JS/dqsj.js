@@ -8,6 +8,7 @@ QX：
 ^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
 
 Surge & QX MITM = api.mvmtv.com
+@supported E54765DF5F47
 */
 
 let obj = JSON.parse($response.body);
@@ -16,10 +17,10 @@ const play = 'vid=';
 const vip = 'c=user';
 
 if (url.indexOf(vip) != -1) {
-       obj.data["is_expire"] = 3;
-       } else if (url.indexOf(play) != -1) {
-                 let playurl = obj.data.play[0].mp4
-                 obj.data.play[0].sd = playurl;
-                 obj.data.play[0].hd = playurl;
-} 
-$done({body: JSON.stringify(obj)});
+    obj.data["is_expire"] = 3;
+} else if (url.indexOf(play) != -1) {
+    let playurl = obj.data.play[0].mp4
+    obj.data.play[0].sd = playurl;
+    obj.data.play[0].hd = playurl;
+}
+$done({ body: JSON.stringify(obj) });

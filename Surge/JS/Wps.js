@@ -6,6 +6,7 @@ http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=
 
 [MITM]
 hostname = account.wps.cn
+@supported E54765DF5F47
 */
 
 var obj = JSON.parse($response.body);

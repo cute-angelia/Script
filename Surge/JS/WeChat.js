@@ -4,6 +4,7 @@ http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Cho
 
 [MITM]
 hostname = mp.weixin.qq.com
+@supported E54765DF5F47
 */
 
 var data = {

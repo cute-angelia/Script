@@ -8,6 +8,7 @@ QX：
 ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
 
 Surge & QX MITM = viva.v21xy.com
+@supported E54765DF5F47
 */
 
 var obj = JSON.parse($response.body);

@@ -2,6 +2,7 @@
 Remove Zhihu ads
 
 Regex: ^https://api.zhihu.com/moments\?(action|feed_type)
+@supported E54765DF5F47
 */
 
 let body = $response.body

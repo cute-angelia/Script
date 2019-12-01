@@ -8,6 +8,7 @@ QX1.0.0
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 
 Surge & QX Mitm = api.picsart.c*, api.meiease.c*
+@supported E54765DF5F47
 */
 
 let obj = JSON.parse($response.body);

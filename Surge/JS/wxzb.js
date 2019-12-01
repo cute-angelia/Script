@@ -7,6 +7,7 @@ QX：
 https:\/\/u\.kanghuayun\.com\/api\/v2\/info url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/wxzb.js
 
 Surge & QX MITM = u.kanghuayun.com
+@supported E54765DF5F47
 */
 　　let obj = JSON.parse($response.body);
 　　obj.data.nickname = "脚本禁止牟利,TG频道@NobyDa";

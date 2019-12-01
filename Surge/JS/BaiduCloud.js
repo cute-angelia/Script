@@ -8,6 +8,7 @@ QX1.0.0:
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
 MITM = pan.baidu.com
+@supported E54765DF5F47
 */
 
 let obj = JSON.parse($response.body);

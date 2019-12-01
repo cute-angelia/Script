@@ -5,6 +5,7 @@ Surge 4.0 : [Script]
 http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
 
 MITM = www.52pojie.cn
+@supported E54765DF5F47
 */
   
   if ($request.url.indexOf('home') != -1) {

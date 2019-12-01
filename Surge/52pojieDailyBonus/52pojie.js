@@ -15,6 +15,7 @@ cron "0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
 
 // MITM = www.52pojie.cn
+@supported E54765DF5F47
 */
 
 var bonus = {

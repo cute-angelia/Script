@@ -8,6 +8,7 @@ QX 1.0.0:
 ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
 
 Surge & QX Mitm = api.vuevideo.net
+@supported E54765DF5F47
 */
 
 body = $response.body.replace(/\"isPremium\":false/, "\"isPremium\":true").replace(/\"valid\":false/, "\"valid\":true")

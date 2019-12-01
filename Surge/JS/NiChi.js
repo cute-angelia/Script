@@ -10,6 +10,7 @@ QX 1.0.0:
 ^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
 
 Surge & QX Mitm = mp.bybutter.com
+@supported E54765DF5F47
 */
 
 body = $response.body.replace(/preview/g, "free").replace(/view/g, "unlimited").replace(/true/g, "false");

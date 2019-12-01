@@ -7,6 +7,7 @@ QX1.0.0:
 
 Surge4.0:
 http-request ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/91ShortVideo.js
+@supported E54765DF5F47
 */
 
 let length = $request.headers['Content-Length'];

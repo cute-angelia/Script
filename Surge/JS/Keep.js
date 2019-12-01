@@ -9,6 +9,7 @@ Surge4.0:
 http-response https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Keep.js
 
 MITM = api.gotokeep.com
+@supported E54765DF5F47
 */
 
 let url = $request.url;

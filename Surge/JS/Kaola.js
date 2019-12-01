@@ -4,6 +4,7 @@ http-request ^https://sp\.kaola\.com/api/openad$ script-path=https://Choler.gith
 
 [MITM]
 hostname = sp.kaola.com
+@supported E54765DF5F47
 */
 
 var data = {

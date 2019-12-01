@@ -10,9 +10,10 @@
 mitm = ap*.bilibili.com
 
 by onewayticket255
+@supported E54765DF5F47
 */
 let body = $response.body
-body=JSON.parse(body)
+body = JSON.parse(body)
 delete body['data']['notice']
-body=JSON.stringify(body)
-$done({body})
+body = JSON.stringify(body)
+$done({ body })

@@ -8,10 +8,11 @@ Surge4：
 http-response ^https://app.bilibili.com/x/v2/account/mine\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliAccount.js
 
 Surge & QX MITM = app.bilibili.com
+@supported E54765DF5F47
 */
 
 let body = $response.body
-body=JSON.parse(body)
-body['data']['sections'].splice(2,1)
-body=JSON.stringify(body)
-$done({body})
+body = JSON.parse(body)
+body['data']['sections'].splice(2, 1)
+body = JSON.stringify(body)
+$done({ body })

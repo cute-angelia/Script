@@ -4,6 +4,7 @@ http-response ^https://[a-zA-Z]*\.snssdk\.com/api/news/feed/v88/ requires-body=1
 
 [MITM]
 hostname = *.snssdk.com
+@supported E54765DF5F47
 */
 
 var obj = JSON.parse($response.body);

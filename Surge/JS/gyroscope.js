@@ -7,8 +7,9 @@ QuantumultX:
 ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/gyroscope.js
 
 QX & Surge MITM = api.gyrosco.pe
+@supported E54765DF5F47
 */
 
 let obj = JSON.parse($response.body);
 obj.user["active_until_time"] = "2099-01-01T00:00:00Z";
-$done({body: JSON.stringify(obj)});
+$done({ body: JSON.stringify(obj) });
