@@ -1,5 +1,7 @@
-/*
-@supported E54765DF5F47
+/**
+* @supported E54765DF5F47
+* @tag 微信个人中心
+* @host i.weread.qq.com
 */
 
 var body = $response.body;

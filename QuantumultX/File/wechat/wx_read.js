@@ -1,9 +1,7 @@
-/*
-微信阅读
-
-i.weread.qq.com
-
-@supported E54765DF5F47
+/**
+* @supported E54765DF5F47
+* @tag 微信阅读
+* @host i.weread.qq.com
 */
 
 var body = $response.body;
