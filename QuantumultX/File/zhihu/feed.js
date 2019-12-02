@@ -7,7 +7,7 @@
 let body = $response.body
 body = JSON.parse(body)
 body['data'].forEach((element, index) => {
-    if (element.hasOwnProperty('ad')) {
+    if (element.hasOwnProperty('ad') || element.hasOwnProperty('adjson')) {
         body['data'].splice(index, 1)
     }
 })

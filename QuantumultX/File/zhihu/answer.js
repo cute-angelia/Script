@@ -11,6 +11,9 @@ body = JSON.parse(body)
 if (body['ad_info']) {
     delete body['ad_info']
 };
+if (body['adjson']) {
+    delete body['adjson']
+};
 if (body.data) {
     body['data'].forEach((element, index) => {
         if (element['author']['name'] == "盐选推荐") {
