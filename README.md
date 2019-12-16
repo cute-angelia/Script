@@ -7,3 +7,7 @@
 
 1. hostname: add match site host
 2. rewrite: add site url match rule
+
+### links
+
+[rules](https://github.com/nzw9314/QuantumultX)
